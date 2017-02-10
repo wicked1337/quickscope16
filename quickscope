@@ -1,0 +1,6 @@
+alias +atk "+attack2; +attack;" 
+alias -atk "-attack2; -attack;"
+alias awpsett "bind mouse1 +atk;" 
+alias armsett "bind mouse1 +attack;"
+bind x awpsett // Bindeaza tasta 'x' pentru a folosi scriptul
+bind c armsett // Bindeaza tasta 'c' pentru a dezactiva scriptul
